@@ -22,4 +22,8 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 2-2: _Entendendo os comandos_
 - [x] 2-3: _Internet - Integração com repositório remoto_
 
+##### Bloco 3: [Introdução à HTML & CSS](LinkDoSeuLinkedinAqui)
+
+
+
 
