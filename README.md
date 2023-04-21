@@ -8,8 +8,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ## Fundamentos do Desenvolvimento Web ✅
 
+##### Seção 1: [Unix, Shell & Git](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-01-unix-shell-e-git)
 
-##### Seção 2: [Introdução à HTML & CSS]([LinkDoSeuLinkedinAqui](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-02-introducao-a-html-e-css))
+- [x] Dia 1 - Unix & Shell
+- [x] Dia 2 - Git, o que é e para que server?
+- [x] Dia 3 - Git e Github, entendendo os comandos.
+
+
+##### Seção 2: [Introdução à HTML & CSS](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-02-introducao-a-html-e-css)
 
 - [ ] Dia 1 - HTML & CSS - Estruturas de página
 - [ ] Dia 2 - HTML & CSS - Primeiros passos em CSS
