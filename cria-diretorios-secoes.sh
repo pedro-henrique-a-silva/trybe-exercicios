@@ -21,7 +21,7 @@ SECAO_03=secao-03
 SECAO_04=secao-04
 SECAO_05=secao-05
 SECAO_06=secao-06
-SECAO_07=secao-06
+SECAO_07=secao-07
 
 
 #============= Fundamentos - seção 4
