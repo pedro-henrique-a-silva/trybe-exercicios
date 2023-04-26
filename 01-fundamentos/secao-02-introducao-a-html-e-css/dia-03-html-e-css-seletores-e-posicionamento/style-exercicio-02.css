@@ -6,7 +6,7 @@
   .goomba {
     width: 100px;
     position: absolute;
-    top: 500px;
+    top: 75%;
   }
   
   .baloon {
@@ -19,5 +19,8 @@
   
   .bowser {
     width: 200px;
+    position: absolute;
+    top: 70%;
+    left: 75%;
 
   }
