@@ -1,0 +1,73 @@
+
+
+div:hover {
+    border: 1px solid black;
+}
+
+/* Primeira div */
+div:nth-child(3) {
+    background-color: red;
+}
+
+div:nth-child(3) h3 {
+    color: white;
+    line-height: 30px;
+}
+/* Primeira div */
+
+
+/* Segunda div */
+div:nth-child(4) {
+    background-color: green;
+}
+
+div:nth-child(4) h3 {
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* Segunda div */
+
+/* Terceira div */
+div:nth-child(5) {
+    background-color: rgb(96, 83, 175);
+}
+
+div:nth-child(5) h3 {
+    color: white;
+    line-height: 150px;
+    text-align: right;
+}
+/* Terceira div */
+
+/* Quarta div */
+div:nth-child(6) {
+    background-color: rgb(180, 80, 175);
+}
+
+div:nth-child(6) h3 {
+    color: white;
+    line-height: 90px;
+}
+/* Quarta div */
+
+/* Quinta div */
+div:nth-child(7) {
+    background-color: rgb(161, 184, 77);
+}
+
+div:nth-child(7) h3 {
+    line-height: 110px;
+    text-align: center;
+}
+
+/* Quinta div */
+
+
+/* Div's impares */
+div:nth-child(odd) h3 {
+    font-style: italic;
+}
+
+
