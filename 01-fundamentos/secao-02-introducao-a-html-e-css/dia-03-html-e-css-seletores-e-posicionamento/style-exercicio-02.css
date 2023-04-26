@@ -17,7 +17,7 @@
   
   .baloon {
     position: absolute;
-    top: 50%;
+    top: 325px;
     left: 470px;
     z-index: 1;
   }
