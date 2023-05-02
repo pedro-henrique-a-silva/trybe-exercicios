@@ -186,11 +186,47 @@ console.log('=============')
 console.log('Exercicio 11')
 console.log('=============')
 
-let salarioBruto = 3800.00;
-let aliquotaINSS = 0;
-let aliquotaIR = 0;
+let salarioBruto = 2300.00;
+let salarioBase = 0;
+let salarioLiquido = 0;
+
+if ((salarioBruto <= 0)){
+  console.log('Salario não pode ser negativo');
+}else if (salarioBruto > 5189.82){
+  salarioBase = salarioBruto - 570.88;
+  console.log('Salário após dedução de R$ 570,88 do INSS:', salarioBase)
+}else if (salarioBruto >= 2594.93){
+  salarioBase = salarioBruto - (salarioBruto * 0.11);
+  console.log('Salário após dedução de 11% do INSS:', salarioBase)
+}else if (salarioBruto >= 1556.95) {
+  salarioBase = salarioBruto - (salarioBruto * 0.09);
+  console.log('Salário após dedução de 9% do INSS:', salarioBase)
+}else{
+  salarioBase = salarioBruto - (salarioBruto * 0.08);
+  console.log('Salário após dedução de 8% do INSS:', salarioBase)
+}
 
 
-if (salarioBruto > 5189.82){
-  console.log('Dedução maxima de R$ 570,88')
+if (salarioBase <= 0){
+  console.log('Salário base não pode ser negativo');
+}else if (salarioBase > 4664.68){
+  salarioLiquido = salarioBase - ((salarioBase * 27.5)/100);
+  console.log('Salario liguido apos dedução de 27,5%:', salarioLiquido);
+  // Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto
+}else if (salarioBase >= 3751.06){
+  salarioLiquido = salarioBase - ((salarioBase * 22.5)/100);
+  console.log('Salario liguido apos dedução de 22,5%:', salarioLiquido);
+// De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto
+}else if (salarioBase >= 2826.66){
+  salarioLiquido = salarioBase - ((salarioBase * 15)/100);
+  console.log('Salario liguido apos dedução de 15%:', salarioLiquido);
+// De R$ 2.826,66 a R$ 3.751,05: alíquota de 15% e parcela de R$ 354,80 a deduzir do imposto
+}else if (salarioBase >= 1903.99) {
+  salarioLiquido = salarioBase - ((salarioBase * 7.5)/100);
+  console.log('Salario liguido apos dedução de 7,5%:', salarioLiquido);
+  // De R$ 1.903,99 a 2.826,65: alíquota de 7,5% e parcela de R$ 142,80 a deduzir do imposto
+}else {
+  salarioLiquido = salarioBase;
+  console.log('Salário isento:', salarioLiquido);
+  // Até R$ 1.903,98: isento de imposto de renda
 }
