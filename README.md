@@ -17,11 +17,20 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ##### Seção 2: [Introdução à HTML & CSS](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-02-introducao-a-html-e-css)
 
-- [ ] Dia 1 - HTML & CSS - Estruturas de página
-- [ ] Dia 2 - HTML & CSS - Primeiros passos em CSS
-- [ ] Dia 3 - HTML & CSS - Seletores e posicionamento
-- [ ] Dia 4 - HTML Semântico
-- [ ] Dia 4- Projeto - Lessons Learned
+- [x] Dia 1 - HTML & CSS - Estruturas de página
+- [x] Dia 2 - HTML & CSS - Primeiros passos em CSS
+- [x] Dia 3 - HTML & CSS - Seletores e posicionamento
+- [x] Dia 4 - HTML Semântico
+- [x] Dia 4 - Projeto - Lessons Learned
+
+
+##### Seção 3: [Introdução à JavaScript](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-03-introducao-a-javascript)
+
+- [x] Dia 1 - JavaScript - Primeiros passos
+- [x] Dia 2 - JavaScript - Array e Loop for
+- [ ] Dia 3 - JavaScript - Funções
+- [ ] Dia 4 - JavaScript ES6 - let, const, arrow functions e template literals, fechado, item de menu com subitens
+- [ ] Dia 4- Projeto - Playground Functions
 
 
 
