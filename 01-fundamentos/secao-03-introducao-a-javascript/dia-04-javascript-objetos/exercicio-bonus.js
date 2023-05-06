@@ -95,8 +95,49 @@ function criaOutputCesta() {
 
 // Exercicio 4
 
+let moradores = {
+  blocoUm: [
+    {
+      nome: 'Luíza',
+      sobrenome: 'Guimarães',
+      andar: 10,
+      apartamento: 1005,
+    },
+    {
+      nome: 'William',
+      sobrenome: 'Albuquerque',
+      andar: 5,
+      apartamento: 502,
+    },
+  ],
+  blocoDois: [
+    {
+      nome: 'Murilo',
+      sobrenome: 'Ferraz',
+      andar: 8,
+      apartamento: 804,
+    },
+    {
+      nome: 'Zoey',
+      sobrenome: 'Brooks',
+      andar: 1,
+      apartamento: 101,
+    },
+  ],
+};
 
+let infosBlocoDois = moradores.blocoDois[moradores.blocoDois.length-1]
 
+let nome = infosBlocoDois.nome;
+let sobrenome = infosBlocoDois.sobrenome;
+let andar = infosBlocoDois.andar;
+let apt = infosBlocoDois.apartamento;
 
+for (let key of Object.keys(moradores)) {
+  for (let obj of moradores[key])
+    console.log(key, obj.nome, obj.sobrenome);
+}
 
-console.log(informaConteudoCesta.slice(0, -2));
+// console.log(nome, sobrenome,'apartamento',apt, 'andar' ,andar, );
+
+// 
