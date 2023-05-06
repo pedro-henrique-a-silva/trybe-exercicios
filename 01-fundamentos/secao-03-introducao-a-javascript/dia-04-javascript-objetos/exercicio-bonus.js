@@ -17,16 +17,33 @@ function traduzAlgarismosRomanos(numero) {
     let valorAtual = algarismosRomanos[numero[indice]]
     let valorFrent = algarismosRomanos[numero[indice + 1]]
 
-    if (valorAtual < valorFrent) {
-      soma += algarismosRomanos[numero[indice + 1]] - algarismosRomanos[numero[indice]]
-      break;
+    if (valorAtual >= valorFrent || indice === (numero.length - 1)) {
+      soma += valorAtual
+    }else {
+      soma -= valorAtual
     }
-    soma += algarismosRomanos[numero[indice]];
+    
   }
 
-  return soma
-
+  return soma;
 }
 
-let numero = 'XIX';
-console.log(traduzAlgarismosRomanos(numero));
+let numeroGrego = 'XLVI';
+
+// exercicio 2
+let vector = [[1, 2], [3,4,5,6], [7,8,9,10]];
+
+function arrayOfNumbers(vector) {
+  let numerosPares = []
+  for (let arr of vector) {
+      for (let value of arr) {
+        if (value % 2 === 0) {
+          numerosPares.push(value);
+        }
+    }
+  }
+
+  return numerosPares;
+}
+
+console.log(arrayOfNumbers(vector));
