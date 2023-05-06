@@ -133,11 +133,74 @@ let sobrenome = infosBlocoDois.sobrenome;
 let andar = infosBlocoDois.andar;
 let apt = infosBlocoDois.apartamento;
 
-for (let key of Object.keys(moradores)) {
-  for (let obj of moradores[key])
-    console.log(key, obj.nome, obj.sobrenome);
-}
+// for (let key of Object.keys(moradores)) {
+//   for (let obj of moradores[key])
+//     console.log(key, obj.nome, obj.sobrenome);
+// }
 
 // console.log(nome, sobrenome,'apartamento',apt, 'andar' ,andar, );
 
-// 
+// exercicio 5
+
+let lesson1 = {
+  materia: 'Matemática',
+  numeroEstudantes: 20,
+  professor: 'Maria Clara',
+  turno: 'manhã',
+};
+
+let lesson2 = {
+  materia: 'História',
+  numeroEstudantes: 20,
+  professor: 'Carlos',
+};
+
+let lesson3 = {
+  materia: 'Matemática',
+  numeroEstudantes: 10,
+  professor: 'Maria Clara',
+  turno: 'noite',
+};
+
+let allLessons = {
+  lesson1: lesson1,
+  lesson2: lesson2,
+  lesson3: lesson3,
+}
+
+function totalEstudantes(object) {
+  let qtdEstudantes = {}
+
+  for (let key in object){
+    let materia = object[key].materia;
+    let numEstudantes = object[key].numeroEstudantes;
+
+    if (qtdEstudantes[materia] === undefined){
+      qtdEstudantes[materia] = numEstudantes;
+    }else {
+      qtdEstudantes[materia] += numEstudantes;
+    }
+  }
+
+  return qtdEstudantes;
+}
+
+function relatorioInstrutor(obj, instrutor) {
+  let objKeys = Object.keys(obj);
+  let relatorio = {
+                  professor: instrutor,
+                  aulas: [],
+                  estudantes: 0,
+                  };
+
+  for (let value of objKeys) {
+    if (obj[value].professor === instrutor) {
+      relatorio.aulas.push(obj[value].materia);
+      relatorio.estudantes += obj[value].numeroEstudantes;
+    }
+  }
+
+  return relatorio;
+}
+
+console.log(relatorioInstrutor(allLessons, 'Carlos'));
