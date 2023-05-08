@@ -10,12 +10,14 @@ function substituaX(nome) {
 
 function minhasSkills(msg) {
   const skills = ['css', 'javascript', 'ES6'];
+  let resultado = `${msg} 
+Minhas três principais habilidades são:`;
 
-  return `${msg} 
-Minhas três principais habilidades são: 
-    ${skills[0]}
-    ${skills[1]}
-    ${skills[2]}`
+  for (let skill of skills) {
+    resultado = `${resultado}
+    - ${skill}`;
+  }
+  return resultado;
 }
 
 console.log(minhasSkills(substituaX('pedro')));
