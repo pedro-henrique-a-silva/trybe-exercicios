@@ -28,11 +28,18 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 - [x] Dia 1 - JavaScript - Primeiros passos
 - [x] Dia 2 - JavaScript - Array e Loop for
-- [ ] Dia 3 - JavaScript - Funções
-- [ ] Dia 4 - JavaScript ES6 - let, const, arrow functions e template literals, fechado, item de menu com subitens
-- [ ] Dia 4- Projeto - Playground Functions
+- [x] Dia 3 - JavaScript - Funções
+- [x] Dia 4 - JavaScript ES6 - let, const, arrow functions e template literals, fechado, item de menu com subitens
+- [x] Dia 4- Projeto - Playground Functions
 
+##### Seção 3: [JavaScript: DOM, Eventos e Web Storage](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-04-dom-eventos-e-web-storage)
 
+- [x] Dia 1 - JavaScript - DOM e Seletores
+- [x] Dia 2 - JavaScript - Trabalhando com Elementos
+- [ ] Dia 3 - JavaScript - Eventos
+- [ ] Dia 4 - JavaScript - Web Storage
+- [ ] Dia 5 - Projeto - Arte com Pixels
+- [ ] Dia 6 - Projeto Bonus
 
 
 
