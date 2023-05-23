@@ -11,7 +11,7 @@ const btnClear = document.querySelector('#clear-btn');
 const formEvent = () => {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
-    if (!event.target.checked) alert('Aceite os temos de direito de imagem');
+    if (!inputAgreement.checked) alert('Aceite os temos de direito de imagem');
   });
 };
 
@@ -40,6 +40,47 @@ const agreementsEvent = () => {
   });
 };
 
-formEvent();
-btnClearEvent();
-agreementsEvent();
+const validateUsingJustValidate = () => {
+  const validate = new window.JustValidate('#main-form');
+
+  validate
+  .addField('#fullName', [
+    {
+      rule: 'required',
+      errorMessage: 'Você precisa Informar seu nome completo',
+    },
+    {
+      rule: 'minLength',
+      value: 10,
+      errorMessage: 'Nome Incorreto',
+    },
+    {
+      rule: 'maxLength',
+      value: 20,
+      errorMessage: 'Nome Incorreto',
+    },
+    
+  ])
+  .addField('#email', [
+    {
+      rule: 'required',
+      errorMessage: 'Email incorreto',
+    },
+    {
+      rule: 'email',
+      errorMessage: 'Email incorreto',
+    }
+  ])
+  .addRequiredGroup(
+    '#destino-preferido',
+    'Você deve selecionar um destino preferido'
+    )
+}
+
+
+window.onload = () => {
+  formEvent();
+  btnClearEvent();
+  agreementsEvent();
+  validateUsingJustValidate();
+}
