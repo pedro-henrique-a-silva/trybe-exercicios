@@ -30,8 +30,12 @@ const agreementsEvent = () => {
   inputAgreement.addEventListener('click', (event) => {
     if (event.target.checked) {
       btnSubmit.removeAttribute('disabled');
+      btnSubmit.classList.remove('btn-secondary');
+      btnSubmit.classList.add('btn-primary')
     } else {
       btnSubmit.setAttribute('disabled', false);
+      btnSubmit.classList.add('btn-secondary')
+      btnSubmit.classList.remove('btn-primary');
     }
   });
 };

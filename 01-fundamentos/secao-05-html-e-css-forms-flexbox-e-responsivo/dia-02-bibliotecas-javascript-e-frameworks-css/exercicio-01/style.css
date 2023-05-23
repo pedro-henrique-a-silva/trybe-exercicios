@@ -1,0 +1,15 @@
+.my-header {
+  width: 100%;
+}
+
+.main-content {
+  width: 50%;
+}
+
+.input-data {
+  width: 50%;
+}
+
+.botoes-container {
+  width: fit-content;
+}
