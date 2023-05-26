@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border: 1px solid red;
+}
+
+main {
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 1px solid black;
+}
+
+#section-input {
+  border: 1px solid blue;
+}
+
+#section-lista-tarefas {
+  margin-top: 20px;
+  border: 1px solid red;
+}
+
+#lista-tarefas li {
+  margin-left: 20px;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#section-buttons {
+  margin-top: 20px;
+  border: 1px solid green;
+}

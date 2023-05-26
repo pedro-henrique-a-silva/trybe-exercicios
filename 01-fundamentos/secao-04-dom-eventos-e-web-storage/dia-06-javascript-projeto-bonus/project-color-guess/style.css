@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('fundo.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 5px black;
+  width: 50%;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+#colors {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  border-radius: 20px;
+  padding: 10px;
+  width: 50%;
+}
+
+.ball {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.623);
+  border-radius: 50px;
+}
+
+#reset-game {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.555);
+  color: black;
+  cursor: pointer;
+}
+
+#reset-game:hover {
+  background-color: rgba(255, 255, 255, 0.349);
+  color: black;
+  border: 2px solid white;
+}
+
+#reset-game:active {
+  background-color: rgba(255, 255, 255, 0.048);
+  color: black;
+}
+
+.section-reset-button {
+  height: 60px;
+}

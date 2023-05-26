@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header h1 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+#section-carta {
+  width: 60%;
+  margin: auto;
+}
+
+#section-carta form {
+  display: flex;
+  justify-content: center;
+}
+
+#carta-texto {
+  flex-grow: 1;
+}
+
+#criar-carta {
+  margin-left: 40px;
+}
+
+#section-carta-gerada {
+  margin-top: 20px;
+}
+
+#carta-gerada span {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.section-carta-contador {
+  text-align: center;
+  font-size: 25px;
+}
+
+.newspaper {
+  background-color: antiquewhite;
+  font-family: Times New Roman, serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana, serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+
+.magazine2 {
+  background-image: url('./images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana, serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  transform: rotate(-5deg);
+}
+
+.rotateright {
+  transform: rotate(5deg);
+}
+
+.skewleft {
+  transform: skewX(10deg);
+}
+
+.skewright {
+  transform: skewX(-10deg);
+}
