@@ -22,7 +22,7 @@ const verificaNome = (nome) => {
 }
 
 const verificaNumero = (number) => {
-  if ((typeof number !== 'number') || (number < 0) || (number > 10)) {
+  if ((isNaN(number)) || (number < 0) || (number > 10)) {
     throw new Error('Precisa digitar uma promo valida');
   }
 }
