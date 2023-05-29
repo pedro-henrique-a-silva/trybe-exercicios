@@ -38,6 +38,9 @@ button.addEventListener('click', () => {
     showPromo(name, number);
   } catch (error) {
     alert(error.message);
+  } finally {
+    document.querySelector('#name-id').value = "";
+    document.querySelector('#number-id').value = "";
   }
 
 });
