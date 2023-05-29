@@ -32,14 +32,32 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 4 - JavaScript ES6 - let, const, arrow functions e template literals, fechado, item de menu com subitens
 - [x] Dia 4- Projeto - Playground Functions
 
-##### Seção 3: [JavaScript: DOM, Eventos e Web Storage](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-04-dom-eventos-e-web-storage)
+##### Seção 4: [JavaScript: DOM, Eventos e Web Storage](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-04-dom-eventos-e-web-storage)
 
 - [x] Dia 1 - JavaScript - DOM e Seletores
 - [x] Dia 2 - JavaScript - Trabalhando com Elementos
-- [ ] Dia 3 - JavaScript - Eventos
-- [ ] Dia 4 - JavaScript - Web Storage
-- [ ] Dia 5 - Projeto - Arte com Pixels
-- [ ] Dia 6 - Projeto Bonus
+- [x] Dia 3 - JavaScript - Eventos
+- [x] Dia 4 - JavaScript - Web Storage
+- [x] Dia 5 - Projeto - Arte com Pixels
+- [x] Dia 6 - Projeto Bonus
+
+##### Seção 5: [HTMl e CSS: Forms, Flexbox e Responsividade](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-05-html-e-css-forms-flexbox-e-responsivo)
+
+- [x] Dia 1 - HTML & CSS: Forms
+- [x] Dia 2 - Bibliotecas Javascript e Frameworks CSS
+- [x] Dia 3 - CSS Flexbox - Parte 1
+- [x] Dia 4 - CSS Flexbox - Parte 2
+- [x] Dia 5 - Responsividade
+- [x] Dia 6 - Projeto - Trybewarts
+
+
+##### Seção 6: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios)
+
+- [x] Dia 1 - Fluxo de exceções
+- [ ] Dia 2 - Primeiros passos em Jest
+- [ ] Dia 3 - Matchers e cobertura de código
+- [ ] Dia 4 - Projeto - Javascript Teste Unitário
+
 
 
 
