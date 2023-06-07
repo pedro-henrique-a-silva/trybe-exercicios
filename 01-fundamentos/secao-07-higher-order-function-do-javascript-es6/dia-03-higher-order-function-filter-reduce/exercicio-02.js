@@ -6,6 +6,12 @@ const arrays = [
 
 const flatten = () => arrays.reduce((acc, curr) => [...acc, ...curr], []);
 
+// const flatten = () => {
+//   return arrays.reduce((acc, curr) => {
+//     return acc.concat(curr);
+//   }, []);
+// }
+
 const books = [
   {
     id: 1,
@@ -77,12 +83,31 @@ const reduceNames = () => books
     return authorNames;
   }, []).join().replaceAll(',', ', ');
 
+// const reduceNames = () => {
+//   return books.reduce((acc, book, index) => {
+//     if (index === books.length - 1) {
+//       return `${acc}${book.author.name}.`;
+//     }
+//     return `${acc}${book.author.name}, `;
+//   }, '');
+// }
+
 const expectedResult2 = 43;
 
 const averageAge = () => books
   .reduce((sumAge, book) => {
     return sumAge + (book.releaseYear - book.author.birthYear);
   }, 0) / books.length;
+
+// const averageAge = () => {
+//   const numberOfBooks = books.length;
+
+//   const sumOfAges = books.reduce((sum, book) => {
+//     return sum + (book.releaseYear - book.author.birthYear);
+//   }, 0);
+
+//   return sumOfAges / numberOfBooks;
+// }
 
 const expectedResult3 = {
   id: 1,
@@ -97,5 +122,11 @@ const expectedResult3 = {
 
 const longestNamedBook = () => books
   .reduce((biggerTitle, book) => biggerTitle.name.length > book.name.length ? biggerTitle:book);
+
+// const longestNamedBook = () => {
+//   return books.reduce((biggestBook, currentBook) => {
+//     return currentBook.name.length > biggestBook.name.length ? currentBook : biggestBook;
+//   });
+// }
 
 console.log(longestNamedBook());
