@@ -97,4 +97,4 @@ const betterClassStudents = (students) => {
   });
 };
 
-console.log(betterClassStudents(estudantes));
+// console.log(betterClassStudents(estudantes));
