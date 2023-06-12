@@ -36,7 +36,7 @@ const gunnar = {
 };
 
 // complete a assinatura da função abaixo
-const personLikes = (object) => {
+const personLikes = ({ name, age, likes }) => {
   const { name , age, likes} = object;
   return `${name} is ${age} years old and likes ${likes.join(', ')}.`
 };
