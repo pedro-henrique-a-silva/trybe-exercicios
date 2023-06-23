@@ -23,7 +23,7 @@ const getRandomHero = () => {
     })
     .catch((error) => Swal.fire({
       title: 'Error!',
-      text: 'SuperHero Não encontrado',
+      text: `SuperHero Não encontrado Error: ${error}`,
       icon: 'error',
       confirmButtonText: 'Tente outra vez',
     }));
