@@ -54,9 +54,41 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ##### Seção 6: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-06-introducao-a-javascript-es6-e-testes-unitarios)
 
 - [x] Dia 1 - Fluxo de exceções
-- [ ] Dia 2 - Primeiros passos em Jest
-- [ ] Dia 3 - Matchers e cobertura de código
-- [ ] Dia 4 - Projeto - Javascript Teste Unitário
+- [x] Dia 2 - Primeiros passos em Jest
+- [x] Dia 3 - Matchers e cobertura de código
+- [x] Dia 4 - Projeto - Javascript Teste Unitário
+
+##### Seção 7: [Higher Order Functions do Javascript ES6](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/01-fundamentos/secao-07-higher-order-function-do-javascript-es6)
+
+- [x] Dia 1 - Introdução a Higher Order Functions
+- [x] Dia 2 - Higher Order Functions - sort e map
+- [x] Dia 3 - Higher Order Functions - filter e reduce
+- [x] Dia 4 - JavaScript ES6 - spread operator, rest parameter e object destructuring
+- [x] Dia 5 - Javascript ES6 - Array destructuring, Default destructuring, Object property shorthand e default parameters
+- [x] Dia 6 - Projeto - Zoo functions
+
+
+## Desenvolvimento Front-End ✅
+
+##### Seção 1: [Introdução ao Frontend e Javascript assíncrono](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/02-front-end/secao-01-introducao-frontend-e-javascript-assincrono)
+
+- [x] Dia 1 - Ambiente de desenvolvimento
+- [x] Dia 2 - JavaScript Assíncrono - Promises e fetch
+- [x] Dia 3 - Prática - Casa de Cámbio
+- [x] Dia 4 - Async, await e testes assíncronos 
+- [x] Dia 5 - Projeto - IChoveu
+
+##### Seção 2: [Introdução ao React](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/02-front-end/secao-02-introducao-ao-react)
+
+- [x] Dia 1 - Introdução ao React e ao Typescript
+- [x] Dia 2 - Componentes React e Props
+- [x] Dia 3 - Avançando em componentes
+- [x] Dia 4 - Prática - Solar System
+- [x] Dia 5 - Estados e eventos
+- [x] Dia 6 - Formulários
+- [x] Dia 7 - Prática - Store Back Office
+- [x] Dia 8 - Projeto - PassWord Manager
+
 
 
 
