@@ -1,0 +1,6 @@
+/* src/components/nav-bar/nav-bar.css */
+
+.active {
+  font-weight: 700;
+  color: red;
+}
