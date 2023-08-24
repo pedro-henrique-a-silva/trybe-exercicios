@@ -1,10 +1,8 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[SeuNomeAqui](LinkDoSeuLinkedinAqui)_ enquanto estudava na [Trybe](https://www.betrybe.com/) 🚀
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por min enquanto estudante na [Trybe](https://www.betrybe.com/) 🚀
 
-> "A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."
-
-> O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+> Nesse repositório está cada um dos pequenos passos que tive que dar em direção a uma carreira como desenvolvedor, um trajetória extremamente satisfatória que me trouxe muito conhecimento.
 
 ## Fundamentos do Desenvolvimento Web ✅
 
@@ -89,6 +87,26 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] Dia 7 - Prática - Store Back Office
 - [x] Dia 8 - Projeto - PassWord Manager
 
+##### Seção 3: [Aprofundando no React](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/02-front-end/secao-03-aprofundando-react)
+
+- [x] Dia 01 - React Router
+- [x] Dia 02 - useEffect
+- [x] Dia 03 - Revisão - Clonando o Twitter
+- [x] Dia 04 - Projeto - Trybetunes
+
+##### Seção 4: [Testes Automatizados com React Testing Library](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/02-front-end/secao-04-testes-automatizados-com-react-testing-library)
+
+- [x] Dia 01 - Introdução a React Testing Library
+- [x] Dia 02 - RTL: Mocks
+- [x] Dia 03 - RTL: Testando com React Router
+- [x] Dia 04 - Projeto - Testes em React
+
+##### Seção 5: [Estilização e Metodologias Agéis](https://github.com/pedro-henrique-a-silva/trybe-exercicios/tree/main/02-front-end/secao-05-estilizacao-e-metodologia-agil)
+
+- [x] Dia 01 - CSS Modules
+- [x] Dia 02 -  Styled Components
+- [x] Dia 03 - Metodologias ágeis
+- [x] Dia 04 - Projeto: Frontend Online Store
 
 
 
