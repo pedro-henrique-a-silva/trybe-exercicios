@@ -1,0 +1,7 @@
+version: '3'
+services:
+  frontend:
+    build: ./app # Especificamos o contexto, ou seja, a pasta onde está o Dockerfile.
+    ports: # Especificamos as portas que serão expostas.
+      - 8080:3000
+
