@@ -1,7 +1,7 @@
 import normas from './normas/normasDeUso';
-import { IAgenda } from './interfaces/IAgenda';
+import IAgenda from './interfaces/IAgenda';
 import Quadra from './Quadra';
-import { ITenis } from './interfaces/ITenis';
+import ITenis from './interfaces/ITenis';
 
 class QuadraTenis extends Quadra {
   public tenisData: ITenis = normas.tenis;
